@@ -15,11 +15,19 @@
         <version>3.0.9</version>
     </parent>
 
+    <properties>
+        <mysql.version>8.0.32</mysql.version>
+    </properties>
+
     <!-- web开发的场景启动器 -->
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
         </dependency>
     </dependencies>
 
