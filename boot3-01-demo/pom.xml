@@ -23,6 +23,11 @@
         </dependency>
     </dependencies>
 
+    <!--
+    默认支持的所有场景：https://docs.spring.io/spring-boot/docs/current/reference/html/using.html#using.build-systems.starters
+    ● 官方提供的场景：命名为：spring-boot-starter-*
+    ● 第三方提供场景：命名为：*-spring-boot-starter
+    -->
     <!-- SpringBoot应用打包插件 -->
     <build>
         <plugins>
